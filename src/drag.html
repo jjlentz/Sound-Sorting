@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/drag.css">
+<!--    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">-->
+<!--    <link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.min.css">-->
+<!--    <link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.min.css">-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/drag.js"></script>
+</head>
+<body>
+<div class="wideBox">
+    <h1>An Experiment</h1>
+    <h2>Some Important Info</h2>
+</div>
+
+<!-- I need to be collapsible -->
+<p><strong>Instructions:</strong> Click a card to play its sound. Drag and drop the cards onto
+    the slots below to organize the sounds in groups based on their similarity.</p>
+
+<div id="content">
+
+    <div id="cardPile"> </div>
+    <div id="cardSlots"> </div>
+
+    <div id="successMessage">
+        <h2>Thank you for participating!</h2>
+        <button onclick="init()">Retry Experiment</button>
+    </div>
+
+</div>
+
+<div class="wideBox">
+    <p>Auditory Perception Lab</p>
+    <p style="font-size: .8em; line-height: 1.5em;">
+        <a rel="license" href="https://creativecommons.org/licenses/by/3.0/">
+        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" />
+        </a>
+    </p>
+    <p>
+      This <span xmlns:dc="https://purl.org/dc/elements/1.1/" href="https://purl.org/dc/dcmitype/Text" rel="dc:type">work</span> by
+        <a href="https://auditoryperceptionlaboratory.com/">https://auditoryperceptionlaboratory.com/</a>
+        is licensed under a
+        <a rel="license" href="https://creativecommons.org/licenses/by/3.0/">
+            Creative Commons Attribution 3.0 Unported License
+        </a>.</p>
+</div>
+
+</body>
+
+</html>
